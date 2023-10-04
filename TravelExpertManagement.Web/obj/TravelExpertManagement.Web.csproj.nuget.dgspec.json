@@ -1,0 +1,348 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Web\\TravelExpertManagement.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.BLL\\TravelExpertManagement.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.BLL\\TravelExpertManagement.BLL.csproj",
+        "projectName": "TravelExpertManagement.BLL",
+        "projectPath": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.BLL\\TravelExpertManagement.BLL.csproj",
+        "packagesPath": "C:\\Users\\sabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Data\\TravelExpertManagement.Data.csproj": {
+                "projectPath": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Data\\TravelExpertManagement.Data.csproj"
+              },
+              "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Lib\\TravelExpertManagement.Lib.csproj": {
+                "projectPath": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Lib\\TravelExpertManagement.Lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Data\\TravelExpertManagement.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Data\\TravelExpertManagement.Data.csproj",
+        "projectName": "TravelExpertManagement.Data",
+        "projectPath": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Data\\TravelExpertManagement.Data.csproj",
+        "packagesPath": "C:\\Users\\sabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Lib\\TravelExpertManagement.Lib.csproj": {
+                "projectPath": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Lib\\TravelExpertManagement.Lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Lib\\TravelExpertManagement.Lib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Lib\\TravelExpertManagement.Lib.csproj",
+        "projectName": "TravelExpertManagement.Lib",
+        "projectPath": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Lib\\TravelExpertManagement.Lib.csproj",
+        "packagesPath": "C:\\Users\\sabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Lib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Web\\TravelExpertManagement.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Web\\TravelExpertManagement.Web.csproj",
+        "projectName": "TravelExpertManagement.Web",
+        "projectPath": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Web\\TravelExpertManagement.Web.csproj",
+        "packagesPath": "C:\\Users\\sabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.BLL\\TravelExpertManagement.BLL.csproj": {
+                "projectPath": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.BLL\\TravelExpertManagement.BLL.csproj"
+              },
+              "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Data\\TravelExpertManagement.Data.csproj": {
+                "projectPath": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Data\\TravelExpertManagement.Data.csproj"
+              },
+              "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Lib\\TravelExpertManagement.Lib.csproj": {
+                "projectPath": "C:\\Users\\sabri\\OneDrive\\Desktop\\TravelExpertManagement\\TravelExpertManagement.Lib\\TravelExpertManagement.Lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
